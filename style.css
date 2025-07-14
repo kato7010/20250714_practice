@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.fv{
+  width: 100%;
+  height: 600px;
+  background-color: #dcdcdc;
+}
+
+h1{
+  text-align: center;
+}
+
+.img{
+  width: 100%;
+  height: 200px;
+  background-color: pink;
+}
+
+.text{
+  width: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+  .box{
+    display: flex;
+  }
+
+  .box01,.box03{
+    flex-direction: row;
+  }
+
+  .box02,.box04{
+    flex-direction: row-reverse;
+  }
+
+}
